@@ -1,0 +1,51 @@
+.card {
+    width: 500px;
+    height: 250px;
+    background: linear-gradient(90deg, rgba(236,114,105,1) 0%, rgba(255,198,202,1) 0%, rgba(255,123,123,1) 100%);    margin: auto;
+    border-radius: 15px;
+    position: relative;
+}
+.around_1{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.5;
+    position: absolute;
+    right: -125px;
+    top: -25px;
+}
+.around_2{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.5;
+    position: absolute;
+    right: -25px;
+    bottom: -125px;
+}
+p{
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+p:nth-child(2n){
+    font-size: 35px;
+}
+
+svg{
+    position: absolute;
+    top: 15%;
+    left: 80%;
+}
+section{
+    display: flex; 
+}
+.blue{
+    background: linear-gradient(90deg, rgba(168,214,255,1) 0%, rgba(38,56,238,1) 100%);
+}
+.green{
+    background: linear-gradient(90deg, rgba(187,255,230,1) 0%, rgba(24,219,174,1) 100%);
+}
